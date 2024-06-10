@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import config from "../config/config.json";
 ---
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
@@ -13,7 +14,7 @@ import "../styles/global.css";
 />
 
 <title> Kednosor </title>
-<link rel="shortcut icon" href="/public/kednosor_logo-tr.ico" />
+<link rel="shortcut icon" href={config.site.favicon}  />
 <!-- Favicon guidelines generated with https://realfavicongenerator.net/ -->
 <link
   rel="apple-touch-icon"

@@ -1,3 +1,7 @@
+---
+import config from "../../config/config.json";
+---
+
 <section class="bg-white border-b border-black/5">
   <div class="w-full mx-auto md:px-12 px-8 max-w-7xl lg:px-16">
     <div x-data="{ open: false }"
@@ -26,7 +30,7 @@
                 fill="#808CFF"></path>
             </svg> 
           -->
-          <img src="/public/kednosor_logo-tr.png" width="55" height="55" alt="kednosor-logo">
+          <img src={config.site.logo} width="55" height="55" alt="kednosor-logo">
           <span class="font-bold font-display">
             Kednosor
           </span>
