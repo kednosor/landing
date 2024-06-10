@@ -4,7 +4,7 @@
       "base_url": "https://kednosor.com",
       "base_path": "/",
       "trailing_slash": false,
-      "favicon": "/public/favicon.ico",
+      "favicon": "/favicon.ico",
       "logo": "/logo.png",
       "logo_darkmode": "/images/logo-darkmode.png",
       "logo_width": "150",
